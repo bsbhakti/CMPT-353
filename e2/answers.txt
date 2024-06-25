@@ -1,0 +1,13 @@
+1. These are some sampple values when I do fit1.head(5)
+id
+994363623421153280    13.185763
+993889039714578432    13.181785
+993629544463642624    13.179609
+992198572664860672    13.167614
+991744041351090177    13.163804
+Name: timestamp, dtype: float64
+Its type Series with data type float64. The are essentially y coordinates of different 
+date points that fall on the best fit line found by linear regression.
+
+2.Fit line is on the graph because the created_at values and the timestamp values are
+ the same point in time, they're just represented in different ways.

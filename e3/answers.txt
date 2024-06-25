@@ -1,0 +1,7 @@
+1. I think I got better results with Loess smoothing because our dataset was huge. 
+Kalman appeared to be a bit more choppy because it was difficult to decide on covariance values.
+
+2. The accelorometer values can be used to calculate changes in velocity, which can then be used to calculate the changes of position (lat long).
+
+4. The prediction with extremely small variance values for lat and long in its transition matrix is a bit over smoothenes, but still pretty good.
+ This implies that our formula for constructing lat,long was pretty accurate.

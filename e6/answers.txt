@@ -1,0 +1,16 @@
+1. No, I dont feel like we were p-hacking. We just realised that we were asking the wrong questions 
+and changed that to more relevant questions, since we already had the data for instructors, we used that instead.
+I am pretty confident in my conclusion that instructors did search more with the new search box.
+
+2. We wouldve done 21 tests if we did T-tests instead of anova. True positive rate wouldve been 0.95^(21) = 0.34, which makes our false positive 
+66%
+
+3. Ranks
+partition - 1
+qs1 - 2
+qs5 - 3
+merge - 3
+qs2 - 4
+qs3 - 4
+qs4 - 5
+

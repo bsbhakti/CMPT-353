@@ -1,0 +1,6 @@
+1. No, I dont think we should predict temperatures with population density. Looking at the plot, 
+there doesnt seem to be any relationship or correlation between the two domains.
+
+2. Copying a file from disk to memory is a time consuming process, so compressed files take 
+shorter than uncompressed ones. Additionally, decompression methods are developed to take advantage 
+of CPU capabilities, so decompressing files is much faster than the time spent on disk I/O operation.

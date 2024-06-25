@@ -1,0 +1,94 @@
+data-1.csv
+Mean  x     8.717696
+y    12.522874
+dtype: float64
+Corr            x         y
+x  1.000000  0.950326
+y  0.950326  1.000000
+Max  x    35.237055
+y    27.384153
+dtype: float64
+Min  x   -22.635878
+y    -2.565088
+dtype: float64
+Desc: The data has almost perfect positive linear relationship.
+
+
+data-2.csv
+Mean  x   -0.710787
+y   -0.748987
+dtype: float64
+Corr            x         y
+x  1.000000  0.955153
+y  0.955153  1.000000
+Max  x    27.647000
+y    14.147315
+dtype: float64
+Min  x   -33.271113
+y   -18.621804
+dtype: float64
+Desc: The data has almost perfect positive linear relationship with some outliers.
+
+
+data-3.csv
+Mean  x    0.968907
+y    8.508535
+dtype: float64
+Corr            x         y
+x  1.000000  0.981937
+y  0.981937  1.000000
+Max  x     4.518885
+y    10.551871
+dtype: float64
+Min  x   -2.449064
+y    6.641734
+dtype: float64
+Desc: The data a bunch of clusters arranged with x and y being positively related..
+
+
+data-4.csv
+Mean  x    49.905086
+y    18.553837
+dtype: float64
+Corr            x         y
+x  1.000000 -0.081193
+y -0.081193  1.000000
+Max  x    87.37670
+y    44.56504
+dtype: float64
+Min  x    0.0
+y    0.0
+dtype: float64
+Desc: The data forms the logo of SFU with no linear relationship
+
+
+data-5.csv
+Mean  x    49.909994
+y    18.555525
+dtype: float64
+Corr            x         y
+x  1.000000 -0.088236
+y -0.088236  1.000000
+Max  x    91.052863
+y    49.934197
+dtype: float64
+Min  x    4.337892
+y    0.055498
+dtype: float64
+Desc: The data is some parallel lines in the range [-20,20]
+
+
+data-6.csv
+Mean  x    7.216155
+y    7.602215
+dtype: float64
+Corr            x         y
+x  1.000000  0.935069
+y  0.935069  1.000000
+Max  x    35.402139
+y    36.079874
+dtype: float64
+Min  x   -24.333821
+y   -22.956357
+dtype: float64
+Desc: The data is a line with slope 1 with some outliers.

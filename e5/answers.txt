@@ -1,0 +1,13 @@
+1. Using Central Limit theorem got me a satisfying result.
+
+2. When we reject null, the original t-tets would indicate that the number of weekday comments
+ and weekend comments are not the same. 
+When we reject null, the transformed t-tets would indicate that the sqrt of number of weekday 
+comments and weekend comments are not the same. 
+
+3. The Central Limit Theorem method gives the most accurate answer eventhough we are 
+changing the question to compare weekday and weekend values per week and not as a whole,
+ but it does meet the normality and variance assumption which is what makes it better in 
+ my opinion.
+
+4. None of our tests indicate if weekdays or weekends have more comments but looking at the histogram, weekdays have more comments.

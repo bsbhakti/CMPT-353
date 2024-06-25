@@ -1,0 +1,4 @@
+1. I found pandas easier to work with and easier to read because it displays data frames with labels.
+2. The pandas method took 3.2 ms ± 16.6 µs per loop and the loops method took 85.4 ms ± 1 ms per loop. 
+This is because Python loops have a lot of overhead because python allows its arrays to have different 
+data types, while Pandas has specific optimized functions that run C code under the hood, making Pandas faster.
