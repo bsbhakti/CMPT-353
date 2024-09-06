@@ -57,8 +57,8 @@ def main():
     weekend_counts = weekend_counts.groupby(by=["year","week"],as_index=False).mean("comment_count")
     weekday_counts = weekday_counts.groupby(by=["year","week"],as_index=False).mean("comment_count")
     print(weekday_counts)
-    weekend_counts = weekend_counts.loc[(weekend_counts["year"] >=2012) & (weekend_counts["year"] <= 2013)]
-    weekday_counts = weekday_counts.loc[(weekday_counts["year"] >=2012) & (weekday_counts["year"] <= 2013)]
+    # weekend_counts = weekend_counts.loc[(weekend_counts["year"] >=2012) & (weekend_counts["year"] <= 2013)]
+    # weekday_counts = weekday_counts.loc[(weekday_counts["year"] >=2012) & (weekday_counts["year"] <= 2013)]
     weekend_counts = weekend_counts[["year","week","comment_count"]]
     weekday_counts = weekday_counts[["year","week","comment_count"]]
 

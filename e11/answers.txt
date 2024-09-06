@@ -1,0 +1,5 @@
+1. I cached after performing group by on subreddits, if I hadnt then then entire group by calculation 
+wouldve been performed again, adding to the time.
+
+2. without hint - 01:29
+with hint 00:15

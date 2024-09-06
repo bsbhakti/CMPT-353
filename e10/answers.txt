@@ -1,0 +1,10 @@
+1.  
+ (1)  reddit 0: 8.99s
+  (2) no schema specified and not caching 17.31s
+(3) with a schema but not caching   13.85s
+(4) with both a schema and caching the twice-used DataFrame 16.27s
+
+2. reading the file is the most time consuming.
+
+3. I used cache after filtering and after doing group by so that both
+ of those operations are not repeated when sorting or dropping columns.

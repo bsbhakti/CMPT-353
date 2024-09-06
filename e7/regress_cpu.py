@@ -94,7 +94,7 @@ def main(training_file, validation_file):
     output_regression(coefficients)
     smooth_test(coefficients, train, 'train.png')
 
-    print(f"Training score: {model.score(X_train, y_train)}\nValidation score: {model.score(X_valid, y_valid)}")
+    # print(f"Training score: {model.score(X_train, y_train)}\nValidation score: {model.score(X_valid, y_valid)}")
 
     plot_errors(model, X_valid, y_valid)
     smooth_test(coefficients, valid, 'valid.png')

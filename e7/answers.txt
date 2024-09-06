@@ -1,0 +1,5 @@
+1. No, the residuals are are skewed, breaking the normality assumption of the OLS test. Hence, we cannot trust the p-value obtained from linear regression.
+We also cannot conclude that ratings are increasing over time.
+
+2. Yes, the new better prediction for the Kalman filter is doing a better job of not following noise. 
+If we look at the plots, several very large values are not followed because our prediction is given more importance.

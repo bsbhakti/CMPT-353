@@ -1,0 +1,7 @@
+1. kNN classifier did the best job of predicting colors. I think it was the best because colors it
+ didnt make any assumptions about independence and normality and is a simple classifier suited for our simple problem.
+ LAB color space was better than RGB because its perceptually uniform and because lightness
+  and color components are seperated.
+
+2. I think the model is making reasonable mistakes because the wrong predictions are typically places with similar weather patterns.
+ Extra features like humidity couldve helped the model make better predictions. Furthermore, adding geographical features like altitude can help as well.
